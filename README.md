@@ -1,6 +1,6 @@
 # Next Icons
 
-**Next-Icons** is a lightweight library for React and Next.js, designed for simplicity and seamless integration.
+Lightweight library for React and Next.js, designed for simplicity and seamless integration.
 
 ![NPM Downloads](https://img.shields.io/npm/d18m/@deemlol/next-icons)
 ![NPM Version](https://img.shields.io/npm/v/@deemlol/next-icons)
@@ -8,20 +8,20 @@
 
 ## Important Information
 
-- Our website is not done yet, so you can only see avaiable icons in the source code of the package, in **icons** folder.
+- Website is not done yet, so you can only see avaiable icons in the source code of the package, in **icons** folder.
 
 ## Installation
 
-    yarn add next-icons@latest
+    yarn add @deemlol/next-icons@latest
 
 or
 
-    npm i next-icons@latest
+    npm i @deemlol/next-icons@latest
 
 ## Usage
 
 ```jsx
-import { ArrowDown } from "next-icons";
+import { ArrowDown } from "@deemlol/next-icons";
 
 export default function Page() {
 	return <ArrowDown />;
@@ -31,7 +31,7 @@ export default function Page() {
 You can also wrap your app inside a `NextIconsProvider` component, so every icon will have the same appearance. If you set specific props for each icon the Provider will be overwritten.
 
 ```jsx
-import { ArrowDown, ArrowUp, NextIconsProvider } from "next-icons";
+import { ArrowDown, ArrowUp, NextIconsProvider } from "@deemlol/next-icons";
 
 export default function Page() {
 	return (
