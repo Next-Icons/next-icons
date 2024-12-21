@@ -2,9 +2,9 @@
 
 **Next-Icons** is a lightweight library for React and Next.js, designed for simplicity and seamless integration.
 
-![NPM Downloads](https://img.shields.io/npm/:interval/:packageName)
-![NPM Version](https://img.shields.io/npm/v/next-icons)
-![NPM License](https://img.shields.io/npm/l/next-icons)
+![NPM Downloads](https://img.shields.io/npm/d18m/@deemlol/next-icons)
+![NPM Version](https://img.shields.io/npm/v/@deemlol/next-icons)
+![NPM License](https://img.shields.io/npm/l/@deemlol/next-icons)
 
 ## Important Information
 
