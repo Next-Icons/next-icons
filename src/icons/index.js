@@ -1,4 +1,3 @@
-// Arrow Icons
 export { default as ArrowDown } from "./ArrowDown";
 export { default as ArrowDownSquare } from "./ArrowDownSquare";
 export { default as ArrowLeft } from "./ArrowLeft";
@@ -7,3 +6,19 @@ export { default as ArrowRight } from "./ArrowRight";
 export { default as ArrowRightSquare } from "./ArrowRightSquare";
 export { default as ArrowUp } from "./ArrowUp";
 export { default as ArrowUpSquare } from "./ArrowUpSquare";
+export { default as Activity } from "./Activity";
+export { default as AddUser } from "./AddUser";
+export { default as Bag } from "./Bag";
+export { default as Bag2 } from "./Bag2";
+export { default as Bookmark } from "./Bookmark";
+export { default as Buy } from "./Buy";
+export { default as Calendar } from "./Calendar";
+export { default as Call } from "./Call";
+export { default as Calling } from "./Calling";
+export { default as CallMissed } from "./CallMissed";
+export { default as CallSilent } from "./CallSilent";
+export { default as Camera } from "./Camera";
+export { default as CaretDown } from "./CaretDown";
+export { default as CaretLeft } from "./CaretLeft";
+export { default as CaretRight } from "./CaretRight";
+export { default as CaretUp } from "./CaretUp";

@@ -8,7 +8,7 @@ Lightweight library for React and Next.js, designed for simplicity and seamless 
 
 ## Important Information
 
-- Website is not done yet, so you can only see avaiable icons in the source code of the package, in **icons** folder.
+- Website is not done yet, you can only see avaiable icons in the source code of the package, in **icons** folder.
 
 ## Installation
 
