@@ -1,5 +1,5 @@
 {
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"name": "@deemlol/next-icons",
 	"description": "A lightweight icon library for React and Next.js, designed for simplicity and seamless integration.",
 	"module": "dist/index.modern.js",
@@ -35,10 +35,10 @@
 	"homepage": "https://www.next-icons.xyz",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/devdeem/next-icons.git"
+		"url": "https://github.com/Next-Icons/next-icons.git"
 	},
 	"bugs": {
-		"url": "https://github.com/devdeem/next-icons/issues"
+		"url": "https://github.com/Next-Icons/next-icons/issues"
 	},
 	"engines": {
 		"node": ">=20"

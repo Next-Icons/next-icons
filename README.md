@@ -8,7 +8,7 @@ Lightweight library for React and Next.js, designed for simplicity and seamless 
 
 ## Important Information
 
-- Website is not done yet, you can only see avaiable icons in the source code of the package, in **icons** folder.
+- Website is not done yet, you can only see avaiable icons in the source code of the package, in [**icons**](https://github.com/Next-Icons/next-icons/tree/main/src/icons) folder.
 
 ## Installation
 
@@ -59,7 +59,3 @@ You can also use custom style, if you want to use some effect or something...
 - Prop: **set** | Type: **string** | Options: **light**, **bold**, **two-tone**, **bulk**, **broken**, **curved** | Default: **light**
 - Prop: **stroke** | Type: **string** | Options: **light**, **regular**, **bold** | Default: **regular**
 - Prop: **style** | Type: **object**
-
-## License
-
-MIT © [Alexandr Virgovič](https://github.com/devdeem)
