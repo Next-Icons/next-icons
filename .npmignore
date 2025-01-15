@@ -1,4 +1,10 @@
-node_modules/
+tsconfig.json
+rollup.config.js
+package-lock.json
+.prettierrc
+.gitignore
+.eslintrc
+.babelrc
+test/
 src/
-.env
-.npmignore
+node_modules/

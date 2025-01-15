@@ -1,74 +1,50 @@
 {
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"name": "@deemlol/next-icons",
-	"description": "A lightweight icon library for React and Next.js, designed for simplicity and seamless integration.",
-	"module": "dist/index.modern.js",
-	"types": "dist/next-icons.d.ts",
-	"main": "dist/index.js",
+	"description": "A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration.",
+	"main": "build/index.js",
+	"module": "build/index.js",
+	"types": "build/index.d.ts",
 	"scripts": {
-		"format:check": "prettier --check .",
-		"format:write": "prettier --write .",
-		"build": "microbundle-crl --define process.env.NODE_ENV=production --compress --strict --format modern,cjs",
-		"copytypes": "cp next-icons.d.ts dist/next-icons.d.ts",
-		"start": "microbundle-crl watch --no-compress --format modern,cjs",
-		"prepare": "run-s build",
-		"test": "run-s test:unit test:build",
-		"test:build": "run-s build",
-		"test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
-		"test:watch": "react-scripts test --env=jsdom"
+		"build": "rollup -c"
 	},
-	"dependencies": {
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
-		"react-scripts": "^5.0.1"
+	"peerDependencies": {
+		"react": "^19.0.0"
 	},
 	"devDependencies": {
-		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-		"@babel/plugin-proposal-unicode-property-regex": "^7.18.6",
-		"cross-env": "^7.0.3",
-		"microbundle-crl": "^0.13.11",
-		"npm-run-all": "^4.1.5",
-		"prettier": "^3.4.2",
-		"prop-types": "^15.8.1",
-		"tsup": "^8.3.5"
+		"@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+		"@babel/preset-env": "^7.26.0",
+		"@babel/preset-react": "^7.26.3",
+		"@types/react": "^19.0.7",
+		"babel-preset-env": "^1.7.0",
+		"eslint": "^8.57.1",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"eslint-plugin-react": "^7.37.4",
+		"prettier-eslint": "^16.3.0",
+		"rollup": "^2.79.2",
+		"rollup-plugin-babel": "^4.4.0",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"typescript": "^5.7.3"
 	},
-	"homepage": "https://www.next-icons.xyz",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Next-Icons/next-icons.git"
-	},
-	"bugs": {
-		"url": "https://github.com/Next-Icons/next-icons/issues"
-	},
-	"engines": {
-		"node": ">=20"
-	},
-	"files": [
-		"dist"
-	],
 	"keywords": [
-		"icons",
-		"next",
-		"next.js",
 		"react",
-		"svg"
+		"icons",
+		"svg",
+		"next-icons"
 	],
+	"homepage": "https://www.next-icons.xyz",
+	"bugs": {
+		"url": "https://www.next-icons.xyz/issues"
+	},
 	"author": {
 		"email": "contact@deemdev.xyz",
 		"name": "Alexandr Virgovič",
 		"url": "https://www.deemdev.xyz"
 	},
-	"tsup": {
-		"entry": [
-			"src",
-			"!src/**/*.text.tsx"
-		],
-		"clean": true,
-		"target": "es2019",
-		"format": [
-			"cjs",
-			"esm"
-		]
-	},
+	"files": [
+		"build"
+	],
 	"license": "MIT"
 }

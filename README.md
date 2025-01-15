@@ -1,16 +1,18 @@
-# Next Icons
-
-Lightweight library for React and Next.js, designed for simplicity and seamless integration.
+# Next-Icons
 
 ![NPM Downloads](https://img.shields.io/npm/d18m/@deemlol/next-icons)
 ![NPM Version](https://img.shields.io/npm/v/@deemlol/next-icons)
 ![NPM License](https://img.shields.io/npm/l/@deemlol/next-icons)
 
-## Important Information
+### What is Next-Icons?
 
-- Website is not done yet, you can only see avaiable icons in the source code of the package, in [**icons**](https://github.com/Next-Icons/next-icons/tree/main/src/icons) folder.
+A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration. Each icon is designed on a 24x24 grid.
 
-## Installation
+### Documentation
+
+https://www.next-icons.xyz
+
+### Installation
 
     yarn add @deemlol/next-icons@latest
 
@@ -18,44 +20,36 @@ or
 
     npm i @deemlol/next-icons@latest
 
-## Usage
+### Usage
 
-```jsx
-import { ArrowDown } from "@deemlol/next-icons";
+```javascript
+import { Check } from "@deemlol/next-icons";
 
-export default function Page() {
-	return <ArrowDown />;
+export default function Home() {
+	return <Check />;
 }
 ```
 
-You can also wrap your app inside a `NextIconsProvider` component, so every icon will have the same appearance. If you set specific props for each icon the Provider will be overwritten.
+You can also include the whole icon pack:
 
-```jsx
-import { ArrowDown, ArrowUp, NextIconsProvider } from "@deemlol/next-icons";
+```javascript
+import * as Icon from "@deemlol/next-icons";
 
-export default function Page() {
-	return (
-		<NextIconsProvider primaryColor="blue" secondaryColor="white" size="xl" stroke="bold" set="bulk">
-			<ArrowDown />
-			<ArrowUp />
-		</NextIconsProvider>
-	);
+export default function Home() {
+	return <Icon.Check />;
 }
 ```
 
-You can also use custom style, if you want to use some effect or something...
+### Props
 
-```jsx
-<ArrowDown style={{ transform: "rotate(45deg)" }} primaryColor="blue" secondaryColor="white" size="xl" stroke="bold" set="bulk" />
+Our icons can be also configured with inline props.
+
+```javascript
+<Check size={40} color="#FF0000" />
 ```
 
-## Props
+> If you need, you can also use className="" in the props.
 
-- Prop: **label** | Type: **string** | Default: **null**
-- Prop: **filled** | Type: **boolean** | Default: **false**
-- Prop: **primaryColor** | Type: **string** | Default: **currentColor**
-- Prop: **secondaryColor** | Type: **string** | Default: **currentColor**
-- Prop: **size** | Type: **string** | Options: **sm**, **md**, **lg**, **xl** | Default: **md**
-- Prop: **set** | Type: **string** | Options: **light**, **bold**, **two-tone**, **bulk**, **broken**, **curved** | Default: **light**
-- Prop: **stroke** | Type: **string** | Options: **light**, **regular**, **bold** | Default: **regular**
-- Prop: **style** | Type: **object**
+# Sponsor Us
+
+Do you like our icons? You can sponsor us via [Ko-Fi](https://ko-fi.com/deemdev), it will help us a lot!
