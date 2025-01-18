@@ -1,5 +1,5 @@
 {
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"name": "@deemlol/next-icons",
 	"description": "A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration.",
 	"main": "build/index.js",
