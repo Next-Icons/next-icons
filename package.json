@@ -1,5 +1,5 @@
 {
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"name": "@deemlol/next-icons",
 	"description": "A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration.",
 	"main": "build/index.js",
@@ -34,9 +34,13 @@
 		"svg",
 		"next-icons"
 	],
-	"homepage": "https://www.next-icons.xyz",
+	"homepage": "https://www.nexticons.com",
 	"bugs": {
-		"url": "https://www.next-icons.xyz/issues"
+		"url": "https://www.nexticons.com/contact"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Next-Icons/next-icons.git"
 	},
 	"author": {
 		"email": "contact@deemdev.xyz",

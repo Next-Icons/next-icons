@@ -10,7 +10,7 @@ A lightweight icon component library for React and Next.js, designed for simplic
 
 ### Documentation
 
-https://www.next-icons.xyz
+https://www.nexticons.com
 
 ### Installation
 
