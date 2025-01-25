@@ -1,5 +1,5 @@
 {
-	"version": "0.1.5",
+	"version": "0.1.8",
 	"name": "@deemlol/next-icons",
 	"description": "A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration.",
 	"main": "build/index.js",
@@ -13,9 +13,9 @@
 	},
 	"devDependencies": {
 		"@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-		"@babel/preset-env": "^7.26.0",
+		"@babel/preset-env": "^7.26.7",
 		"@babel/preset-react": "^7.26.3",
-		"@types/react": "^19.0.7",
+		"@types/react": "^19.0.8",
 		"babel-preset-env": "^1.7.0",
 		"eslint": "^8.57.1",
 		"eslint-config-airbnb": "^19.0.4",
