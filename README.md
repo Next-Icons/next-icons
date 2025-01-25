@@ -1,55 +1,63 @@
-# Next-Icons
+[![NextIcons](https://www.nexticons.com/assets/Banner.png)](https://www.nexticons.com)
 
 ![NPM Downloads](https://img.shields.io/npm/d18m/@deemlol/next-icons)
 ![NPM Version](https://img.shields.io/npm/v/@deemlol/next-icons)
 ![NPM License](https://img.shields.io/npm/l/@deemlol/next-icons)
 
-### What is Next-Icons?
-
 A lightweight icon component library for React and Next.js, designed for simplicity and seamless integration. Each icon is designed on a 24x24 grid.
 
-### Documentation
+## Installation (for standard modern project)
 
-https://www.nexticons.com
+```bash
+yarn add @deemlol/next-icons@latest
+# or
+npm install @deemlol/next-icons@latest
+```
 
-### Installation
-
-    yarn add @deemlol/next-icons@latest
-
-or
-
-    npm i @deemlol/next-icons@latest
-
-### Usage
+## Example Usage
 
 ```javascript
-import { Check } from "@deemlol/next-icons";
+import { Cookie } from "@deemlol/next-icons";
 
-export default function Home() {
-	return <Check />;
+export default function Question() {
+	return (
+		<h1>
+			Do you want <Cookie />?
+		</h1>
+	);
 }
 ```
 
-You can also include the whole icon pack:
+#### _You can also include the whole icon pack:_
 
 ```javascript
 import * as Icon from "@deemlol/next-icons";
 
-export default function Home() {
-	return <Icon.Check />;
+export default function Question() {
+	return (
+		<h1>
+			Do you want <Icon.Cookie />?
+		</h1>
+	);
 }
 ```
 
-### Props
+## Configuration
 
-Our icons can be also configured with inline props.
+_Our icons can be also configured with inline props_
 
 ```javascript
-<Check size={40} color="#FF0000" />
+<Cookie size={40} color="#FF0000" className="flex items-center" />
 ```
 
-> If you need, you can also use className="" in the props.
+## Our Website
 
-# Sponsor Us
+For more information, visit our [Official Website](https://www.nexticons.com).
 
-Do you like our icons? You can sponsor us via [Ko-Fi](https://ko-fi.com/deemdev), it will help us a lot!
+## Support
+
+If you encounter any issues or have questions, feel free to reach out to our [Support Team](https://www.nexticons.com/contact).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://www.nexticons.com/license) for more information.
