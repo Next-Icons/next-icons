@@ -116,6 +116,7 @@ export { default as CornerUpLeft } from "./icons/cornerUpLeft";
 export { default as CornerUpRight } from "./icons/cornerUpRight";
 export { default as Cpu } from "./icons/cpu";
 export { default as CreditCard } from "./icons/creditCard";
+export { default as Credly } from "./icons/credly";
 export { default as Crop } from "./icons/crop";
 export { default as Crosshair } from "./icons/crosshair";
 export { default as Database } from "./icons/database";

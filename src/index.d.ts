@@ -126,6 +126,7 @@ export const CornerUpLeft: Icon;
 export const CornerUpRight: Icon;
 export const Cpu: Icon;
 export const CreditCard: Icon;
+export const Credly: Icon;
 export const Crop: Icon;
 export const Crosshair: Icon;
 export const Database: Icon;
