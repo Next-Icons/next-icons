@@ -332,6 +332,7 @@ export { default as Volume3 } from "./icons/volume3";
 export { default as VolumeX } from "./icons/volumeX";
 export { default as WandSparkles } from "./icons/wandSparkles";
 export { default as Watch } from "./icons/watch";
+export { default as Whatsapp } from "./icons/whatsapp";
 export { default as Wifi } from "./icons/wifi";
 export { default as WifiOff } from "./icons/wifiOff";
 export { default as Wind } from "./icons/wind";
