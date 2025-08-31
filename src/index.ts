@@ -310,6 +310,7 @@ export { default as Truck } from "./icons/truck";
 export { default as Tv } from "./icons/tv";
 export { default as Twitch } from "./icons/twitch";
 export { default as Twitter } from "./icons/twitter";
+export { default as TwitterX } from "./icons/twitterx";
 export { default as Type } from "./icons/type";
 export { default as TypeScript } from "./icons/typescript";
 export { default as Umbrella } from "./icons/umbrella";

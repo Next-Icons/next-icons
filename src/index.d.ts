@@ -320,6 +320,7 @@ export const Truck: Icon;
 export const Tv: Icon;
 export const Twitch: Icon;
 export const Twitter: Icon;
+export const TwitterX: Icon;
 export const Type: Icon;
 export const TypeScript: Icon;
 export const Umbrella: Icon;
