@@ -342,6 +342,7 @@ export const Volume3: Icon;
 export const VolumeX: Icon;
 export const WandSparkles: Icon;
 export const Watch: Icon;
+export const Whatsapp: Icon;
 export const Wifi: Icon;
 export const WifiOff: Icon;
 export const Wind: Icon;
