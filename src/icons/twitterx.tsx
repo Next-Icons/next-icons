@@ -20,7 +20,7 @@ interface IconProps extends SVGAttributes<SVGElement> {
     size?: string | number;
 }
 
-const twitterX = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, ...rest }, ref) => {
+const TwitterX = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, ...rest }, ref) => {
     return (
         <svg
             ref={ref}
@@ -40,5 +40,5 @@ const twitterX = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor",
     );
 });
 
-twitterX.displayName = "TwitterX";
-export default twitterX;
+TwitterX.displayName = "TwitterX";
+export default TwitterX;
