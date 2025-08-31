@@ -28,9 +28,7 @@ const Whatsapp = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor",
             width={size}
             height={size}
             viewBox="0 0 24 24"
-            fill="none"
-            stroke={color}
-            strokeWidth="2"
+            fill={color}
             strokeLinecap="round"
             strokeLinejoin="round"
             {...rest}
