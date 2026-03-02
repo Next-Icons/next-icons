@@ -26,7 +26,7 @@ bun add @deemlol/next-icons
 
 ## Example Usage
 
-```typescript
+```javascript
 import { Cookie } from "@deemlol/next-icons";
 
 export default function Question() {
@@ -40,7 +40,7 @@ export default function Question() {
 
 You can also include the whole icon pack:
 
-```typescript
+```javascript
 import * as Icon from "@deemlol/next-icons";
 
 export default function Question() {
@@ -56,7 +56,7 @@ export default function Question() {
 
 All our icons can be also configured with props.
 
-```typescript
+```javascript
 <Cookie size={40} color="#FF0000" strokeWidth={2} className="flex items-center" />
 ```
 
