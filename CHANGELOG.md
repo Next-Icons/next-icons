@@ -1,19 +1,38 @@
 # @deemlol/next-icons
 
+## 0.2.3
+
+### Patch Changes
+
+- Added `ArrowDownBig` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowDownBigDash` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowUpBig` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowUpBigDash` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowRightBig` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowRightBigDash` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowLeftBig` by [@devdeem](https://github.com/devdeem)
+- Added `ArrowLeftBigDash` by [@devdeem](https://github.com/devdeem)
+- Added `AArrowDown` by [@devdeem](https://github.com/devdeem)
+- Added `AArrowUp` by [@devdeem](https://github.com/devdeem)
+
+    _https://github.com/Next-Icons/next-icons/commit/a4f823ab0a050ba4411894665ad9b513871c84e3_
+
 ## 0.2.2
 
 ### Patch Changes
 
 - Changed `strokeWidth` from `2` to `1.5`
 - Fixed repository url in `package.json`. Added `+git` suffix to the url.
-  _https://github.com/Next-Icons/next-icons/commit/81d49023a81d07e59bc768804ef86e2442f1e322_
+
+    _https://github.com/Next-Icons/next-icons/commit/81d49023a81d07e59bc768804ef86e2442f1e322_
 
 ## 0.2.1
 
 ### Patch Changes
 
 - Rewrite of the whole icon library
-  _https://github.com/Next-Icons/next-icons/commit/abfed8fafd7a92c956355df4ead190e4dcf7b266_
+
+    _https://github.com/Next-Icons/next-icons/commit/abfed8fafd7a92c956355df4ead190e4dcf7b266_
 
 ## 0.1.3
 
@@ -427,7 +446,8 @@
 - Fixed typo in the website text section
 - Added export for new added icons
 - Added new test cases to validate new icons
-  _https://github.com/Next-Icons/next-icons/commits/v0.0.5_
+
+    _https://github.com/Next-Icons/next-icons/commits/v0.0.5_
 
 ## 0.0.4
 
@@ -436,7 +456,8 @@
 - Added new rules to exclude unnecessary files for package publishing
 - Added a sample website to showcase and test our icons
 - Expanded test cases to validate the functionality of all icons
-  _https://github.com/Next-Icons/next-icons/commits/v0.0.4_
+
+    _https://github.com/Next-Icons/next-icons/commits/v0.0.4_
 
 ## 0.0.3
 
@@ -445,7 +466,8 @@
 - Added ignor check for `.npmignore` file
 - Refined titles and corrected the package name in code examples
 - Removed unused dependencies and corrected the repository url
-  _https://github.com/Next-Icons/next-icons/commits/v0.0.3_
+
+    _https://github.com/Next-Icons/next-icons/commits/v0.0.3_
 
 ## 0.0.2
 
@@ -454,7 +476,8 @@
 - Fixed URL for NPM Download badge in `README.md`
 - Fixed URL for NPM Version in `README.md`
 - Fixed URL for NPM License in `README.md`
-  _https://github.com/Next-Icons/next-icons/commits/v0.0.2_
+
+    _https://github.com/Next-Icons/next-icons/commits/v0.0.2_
 
 ## 0.0.1
 
@@ -468,4 +491,5 @@
 - Added `ArrowRightSquare` by [@devdeem](https://github.com/devdeem)
 - Added `ArrowUp` by [@devdeem](https://github.com/devdeem)
 - Added `ArrowUpSquare` by [@devdeem](https://github.com/devdeem)
-  _Full Changelog: https://github.com/Next-Icons/next-icons/commits/v0.0.1_
+
+    _Full Changelog: https://github.com/Next-Icons/next-icons/commits/v0.0.1_
