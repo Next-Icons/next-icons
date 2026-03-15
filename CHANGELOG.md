@@ -1,5 +1,13 @@
 # @deemlol/next-icons
 
+## 0.2.2
+
+### Patch Changes
+
+- Changed `strokeWidth` from `2` to `1.5`
+- Fixed repository url in `package.json`. Added `+git` suffix to the url.
+  _https://github.com/Next-Icons/next-icons/commit/81d49023a81d07e59bc768804ef86e2442f1e322_
+
 ## 0.2.1
 
 ### Patch Changes
