@@ -6,7 +6,7 @@ interface IconProps extends SVGAttributes<SVGElement> {
 	strokeWidth?: string | number;
 }
 
-const CornerUpRight = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 2, ...rest }, ref) => {
+const CornerUpRight = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
 	return (
 		<svg
 			ref={ref}

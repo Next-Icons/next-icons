@@ -1,6 +1,6 @@
 {
 	"private": false,
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"type": "module",
 	"name": "@deemlol/next-icons",
 	"description": "An open-source icon library for React and Next.js that is lightweight, designed for simplicity and seamless integration. Each icon is designed on a 24x24 pixels grid.",
@@ -49,7 +49,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Next-Icons/next-icons.git"
+		"url": "git+https://github.com/Next-Icons/next-icons.git"
 	},
 	"author": {
 		"email": "contact@nexticons.com",
