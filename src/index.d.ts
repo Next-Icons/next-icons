@@ -176,6 +176,8 @@ export const AlertOctagon: Icon;
 export const AlertTriangle: Icon;
 
 // Text Icons
+export const AArrowUp: Icon;
+export const AArrowDown: Icon;
 export const AlignCenter: Icon;
 export const AlignJustify: Icon;
 export const AlignLeft: Icon;
@@ -234,6 +236,14 @@ export const CornerRightDown: Icon;
 export const CornerRightUp: Icon;
 export const CornerUpLeft: Icon;
 export const CornerUpRight: Icon;
+export const ArrowDownBig: Icon;
+export const ArrowDownBigDash: Icon;
+export const ArrowUpBig: Icon;
+export const ArrowUpBigDash: Icon;
+export const ArrowRightBig: Icon;
+export const ArrowRightBigDash: Icon;
+export const ArrowLeftBig: Icon;
+export const ArrowLeftBigDash: Icon;
 
 // Battery Icons
 export const Battery: Icon;

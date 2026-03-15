@@ -165,6 +165,8 @@ export { default as AlertOctagon } from "./icons/alert/AlertOctagon";
 export { default as AlertTriangle } from "./icons/alert/AlertTriangle";
 
 // Text Icons
+export { default as AArrowUp } from "./icons/text/AArrowUp";
+export { default as AArrowDown } from "./icons/text/AArrowDown";
 export { default as AlignCenter } from "./icons/text/AlignCenter";
 export { default as AlignJustify } from "./icons/text/AlignJustify";
 export { default as AlignLeft } from "./icons/text/AlignLeft";
@@ -223,6 +225,14 @@ export { default as CornerRightDown } from "./icons/arrow/CornerRightDown";
 export { default as CornerRightUp } from "./icons/arrow/CornerRightUp";
 export { default as CornerUpLeft } from "./icons/arrow/CornerUpLeft";
 export { default as CornerUpRight } from "./icons/arrow/CornerUpRight";
+export { default as ArrowDownBig } from "./icons/arrow/ArrowDownBig";
+export { default as ArrowDownBigDash } from "./icons/arrow/ArrowDownBigDash";
+export { default as ArrowUpBig } from "./icons/arrow/ArrowUpBig";
+export { default as ArrowUpBigDash } from "./icons/arrow/ArrowUpBigDash";
+export { default as ArrowRightBig } from "./icons/arrow/ArrowRightBig";
+export { default as ArrowRightBigDash } from "./icons/arrow/ArrowRightBigDash";
+export { default as ArrowLeftBig } from "./icons/arrow/ArrowLeftBig";
+export { default as ArrowLeftBigDash } from "./icons/arrow/ArrowLeftBigDash";
 
 // Battery Icons
 export { default as Battery } from "./icons/battery/Battery";

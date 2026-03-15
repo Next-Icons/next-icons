@@ -57,7 +57,7 @@ export default function Question() {
 All our icons can be also configured with props.
 
 ```javascript
-<Cookie size={40} color="#FF0000" strokeWidth={2} className="flex items-center" />
+<Cookie size={40} color="#FF0000" strokeWidth={1.5} className="flex items-center" />
 ```
 
 ## Support
