@@ -36,6 +36,8 @@ export const CreditCard: Icon;
 export const Crosshair: Icon;
 export const Delete: Icon;
 export const Droplet: Icon;
+export const DropletOff: Icon;
+export const DropletDouble: Icon;
 export const FastForward: Icon;
 export const Flag: Icon;
 export const Gift: Icon;
@@ -202,6 +204,13 @@ export const CameraOff: Icon;
 export const Crop: Icon;
 export const Film: Icon;
 export const Image: Icon;
+export const ImageDown: Icon;
+export const ImageMinus: Icon;
+export const ImageOff: Icon;
+export const ImagePlay: Icon;
+export const ImagePlus: Icon;
+export const ImageUp: Icon;
+export const ImageScaleDash: Icon;
 
 // Food Icons
 export const Apple: Icon;
@@ -302,6 +311,7 @@ export const DivideSquare: Icon;
 
 // Currency Icons
 export const Dollar: Icon;
+export const Euro: Icon;
 
 // Download Icons
 export const Download: Icon;

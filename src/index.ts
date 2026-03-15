@@ -25,6 +25,8 @@ export { default as CreditCard } from "./icons/general/CreditCard";
 export { default as Crosshair } from "./icons/general/Crosshair";
 export { default as Delete } from "./icons/general/Delete";
 export { default as Droplet } from "./icons/general/Droplet";
+export { default as DropletDouble } from "./icons/general/DropletDouble";
+export { default as DropletOff } from "./icons/general/DropletOff";
 export { default as FastForward } from "./icons/general/FastForward";
 export { default as Flag } from "./icons/general/Flag";
 export { default as Gift } from "./icons/general/Gift";
@@ -191,6 +193,13 @@ export { default as CameraOff } from "./icons/camera/CameraOff";
 export { default as Crop } from "./icons/camera/Crop";
 export { default as Film } from "./icons/camera/Film";
 export { default as Image } from "./icons/camera/Image";
+export { default as ImageDown } from "./icons/camera/ImageDown";
+export { default as ImageMinus } from "./icons/camera/ImageMinus";
+export { default as ImageOff } from "./icons/camera/ImageOff";
+export { default as ImagePlay } from "./icons/camera/ImagePlay";
+export { default as ImagePlus } from "./icons/camera/ImagePlus";
+export { default as ImageUp } from "./icons/camera/ImageUp";
+export { default as ImageScaleDash } from "./icons/camera/ImageScaleDash";
 
 // Food Icons
 export { default as Apple } from "./icons/food/Apple";
@@ -291,6 +300,7 @@ export { default as DivideSquare } from "./icons/divide/DivideSquare";
 
 // Currency Icons
 export { default as Dollar } from "./icons/currency/Dollar";
+export { default as Euro } from "./icons/currency/Euro";
 
 // Download Icons
 export { default as Download } from "./icons/download/Download";
