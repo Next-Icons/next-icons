@@ -1,5 +1,22 @@
 # @deemlol/next-icons
 
+## 0.2.4
+
+### Patch Changes
+
+- Added `ImageDown` by [@devdeem](https://github.com/devdeem)
+- Added `ImageMinus` by [@devdeem](https://github.com/devdeem)
+- Added `ImageOff` by [@devdeem](https://github.com/devdeem)
+- Added `ImagePlay` by [@devdeem](https://github.com/devdeem)
+- Added `ImagePlus` by [@devdeem](https://github.com/devdeem)
+- Added `ImageUp` by [@devdeem](https://github.com/devdeem)
+- Added `ImageScaleDash` by [@devdeem](https://github.com/devdeem)
+- Added `Euro` by [@devdeem](https://github.com/devdeem)
+- Added `DropletDouble` by [@devdeem](https://github.com/devdeem)
+- Added `DropletOff` by [@devdeem](https://github.com/devdeem)
+
+_https://github.com/Next-Icons/next-icons/commit/150100fbee0de420c8d4a792615935e9acfe336d_
+
 ## 0.2.3
 
 ### Patch Changes
