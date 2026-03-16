@@ -1,5 +1,13 @@
 # @deemlol/next-icons
 
+## 0.2.5
+
+### Patch Changes
+
+- Added `TwitterNew` by [@devdeem](https://github.com/devdeem)
+
+    _https://github.com/Next-Icons/next-icons/commit/46cc61b4408b53bd8096f2cafa71163531f7d669_
+
 ## 0.2.4
 
 ### Patch Changes
