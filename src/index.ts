@@ -152,6 +152,7 @@ export { default as Twitch } from "./icons/social/Twitch";
 export { default as Twitter } from "./icons/social/Twitter";
 export { default as WhatsApp } from "./icons/social/WhatsApp";
 export { default as YouTube } from "./icons/social/YouTube";
+export { default as TwitterNew } from "./icons/social/TwitterNew";
 
 // Alarm Icons
 export { default as Alarm } from "./icons/alarm/Alarm";

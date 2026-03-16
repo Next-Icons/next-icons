@@ -163,6 +163,7 @@ export const Twitch: Icon;
 export const Twitter: Icon;
 export const WhatsApp: Icon;
 export const YouTube: Icon;
+export const TwitterNew: Icon;
 
 // Alarm Icons
 export const Alarm: Icon;
