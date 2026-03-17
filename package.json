@@ -1,6 +1,6 @@
 {
 	"private": false,
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"type": "module",
 	"name": "@deemlol/next-icons",
 	"description": "An open-source icon library for React and Next.js that is lightweight, designed for simplicity and seamless integration. Each icon is designed on a 24x24 pixels grid.",
@@ -15,6 +15,7 @@
 		"format:write": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
 	},
 	"peerDependencies": {
+		"framer-motion": "^12.0.0",
 		"react": "^19.0.0"
 	},
 	"devDependencies": {
@@ -31,10 +32,23 @@
 		"eslint-plugin-jsx-a11y": "^6.10.2",
 		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"framer-motion": "^12.38.0",
 		"prettier-eslint": "^16.4.2",
 		"rollup": "^4.59.0",
 		"rollup-plugin-typescript2": "^0.36.0",
 		"typescript": "^5.9.3"
+	},
+	"exports": {
+		".": {
+			"types": "./build/index.d.ts",
+			"import": "./build/index.js",
+			"default": "./build/index.js"
+		},
+		"./animated": {
+			"types": "./build/animated/index.d.ts",
+			"import": "./build/animated/index.js",
+			"default": "./build/animated/index.js"
+		}
 	},
 	"keywords": [
 		"react icons",

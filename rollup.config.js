@@ -2,17 +2,24 @@ import typescript from "rollup-plugin-typescript2";
 import babel from "@rollup/plugin-babel";
 import ts from "typescript";
 
-export default {
-	input: "src/index.ts",
+const createConfig = (input, outputFile, declarationDir, rootDir, include) => ({
+	input,
 	output: {
-		file: "build/index.js",
+		file: outputFile,
 		format: "esm"
 	},
-	external: ["react", "prop-types"],
+	external: ["react", "prop-types", "framer-motion"],
 	plugins: [
 		typescript({
 			typescript: ts,
-			tsconfig: "tsconfig.json"
+			tsconfig: "tsconfig.json",
+			tsconfigOverride: {
+				include: [include],
+				compilerOptions: {
+					declarationDir,
+					rootDir
+				}
+			}
 		}),
 		babel({
 			babelHelpers: "bundled",
@@ -20,4 +27,9 @@ export default {
 			exclude: "node_modules/**"
 		})
 	]
-};
+});
+
+export default [
+	createConfig("src/index.ts", "build/index.js", "build", "src", "src/index.ts"),
+	createConfig("src/animated/index.ts", "build/animated/index.js", "build/animated", "src/animated", "src/animated/index.ts")
+];

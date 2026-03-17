@@ -52,6 +52,25 @@ export default function Question() {
 }
 ```
 
+## Animated Icons
+
+Animated icons are available from a dedicated import path:
+
+```javascript
+import { Alarm } from "@deemlol/next-icons/animated";
+
+export default function Preview() {
+	return (
+		<div>
+			<Alarm />
+		</div>
+	);
+}
+```
+
+You can use the same props as regular icons (`size`, `color`, `strokeWidth`, `className`).
+Some animations are interactive and run on hover/focus.
+
 ## Configuration
 
 All our icons can be also configured with props.
