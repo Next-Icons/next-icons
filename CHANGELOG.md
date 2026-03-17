@@ -1,5 +1,17 @@
 # @deemlol/next-icons
 
+## 0.2.6
+
+### Patch Changes
+
+- Added animated icon `AlarmCheck` by [@devdeem](https://github.com/devdeem)
+- Added animated icon `Alarm` by [@devdeem](https://github.com/devdeem)
+- Added animated icon `AlarmMinus` by [@devdeem](https://github.com/devdeem)
+- Added animated icon `AlarmOff` by [@devdeem](https://github.com/devdeem)
+- Added animated icon `AlarmPlus` by [@devdeem](https://github.com/devdeem)
+- Added animated icon `Clock` by [@devdeem](https://github.com/devdeem)
+  _https://github.com/Next-Icons/next-icons/commit/b11f78abc7718d980a55653252cbb0653e901e08_
+
 ## 0.2.5
 
 ### Patch Changes
