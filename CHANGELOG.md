@@ -1,5 +1,12 @@
 # @deemlol/next-icons
 
+## 0.2.7
+
+### Patch Changes
+
+- Removed `export default` from `index.ts` in `animated` folder
+  _https://github.com/Next-Icons/next-icons/commit/372c1e77ea10bd4862d3b906a44d01d4d06f64fa_
+
 ## 0.2.6
 
 ### Patch Changes
