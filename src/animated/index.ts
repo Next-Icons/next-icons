@@ -7,4 +7,3 @@ import AlarmPlus from "./icons/alarm/AlarmPlus";
 import Clock from "./icons/alarm/Clock";
 
 export { Alarm, AlarmCheck, AlarmMinus, AlarmOff, AlarmPlus, Clock };
-export default Alarm;
