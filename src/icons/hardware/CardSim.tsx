@@ -1,0 +1,27 @@
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
+const CardSim = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
+	return (
+		<svg
+			ref={ref}
+			xmlns="http://www.w3.org/2000/svg"
+			width={size}
+			height={size}
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke={color}
+			strokeWidth={strokeWidth}
+			strokeLinecap="round"
+			strokeLinejoin="round"
+			{...rest}
+		>
+			<path d="M12 14v4" />
+			<path d="M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
+			<path d="M8 14h8" />
+			<rect height="8" rx="2" width="8" x="8" y="10" />
+		</svg>
+	);
+});
+
+CardSim.displayName = "CardSim";
+export default CardSim;

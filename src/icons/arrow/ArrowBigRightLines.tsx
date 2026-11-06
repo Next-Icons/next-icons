@@ -1,0 +1,28 @@
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
+const ArrowBigRightLines = forwardRef<SVGSVGElement, IconProps>(
+	({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
+		return (
+			<svg
+				ref={ref}
+				xmlns="http://www.w3.org/2000/svg"
+				width={size}
+				height={size}
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke={color}
+				strokeWidth={strokeWidth}
+				strokeLinecap="round"
+				strokeLinejoin="round"
+				{...rest}
+			>
+				<path d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-3v-6h3" />
+				<path d="M3 9v6" />
+				<path d="M6 9v6" />
+			</svg>
+		);
+	}
+);
+
+ArrowBigRightLines.displayName = "ArrowBigRightLines";
+export default ArrowBigRightLines;

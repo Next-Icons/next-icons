@@ -1,11 +1,5 @@
-import React, { forwardRef, SVGAttributes } from "react";
-
-interface IconProps extends SVGAttributes<SVGElement> {
-	color?: string;
-	size?: string | number;
-	strokeWidth?: string | number;
-}
-
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
 const BatteryCharging = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
 	return (
 		<svg
@@ -21,9 +15,10 @@ const BatteryCharging = forwardRef<SVGSVGElement, IconProps>(({ color = "current
 			strokeLinejoin="round"
 			{...rest}
 		>
-			<path d="M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.19M15 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.19" />
-			<line x1="23" y1="13" x2="23" y2="11" />
-			<polyline points="11 6 7 12 13 12 9 18" />
+			<path d="m11 7-3 5h4l-3 5" />
+			<path d="M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935" />
+			<path d="M22 14v-4" />
+			<path d="M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936" />
 		</svg>
 	);
 });

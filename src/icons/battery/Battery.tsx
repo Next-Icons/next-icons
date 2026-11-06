@@ -1,11 +1,5 @@
-import React, { forwardRef, SVGAttributes } from "react";
-
-interface IconProps extends SVGAttributes<SVGElement> {
-	color?: string;
-	size?: string | number;
-	strokeWidth?: string | number;
-}
-
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
 const Battery = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
 	return (
 		<svg
@@ -21,8 +15,8 @@ const Battery = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", 
 			strokeLinejoin="round"
 			{...rest}
 		>
-			<rect x="1" y="6" width="18" height="12" rx="2" ry="2" />
-			<line x1="23" y1="13" x2="23" y2="11" />
+			<path d="M 22 14 L 22 10" />
+			<rect height="12" rx="2" width="16" x="2" y="6" />
 		</svg>
 	);
 });

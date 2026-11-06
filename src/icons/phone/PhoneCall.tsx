@@ -1,11 +1,5 @@
-import React, { forwardRef, SVGAttributes } from "react";
-
-interface IconProps extends SVGAttributes<SVGElement> {
-	color?: string;
-	size?: string | number;
-	strokeWidth?: string | number;
-}
-
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
 const PhoneCall = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
 	return (
 		<svg
@@ -21,7 +15,9 @@ const PhoneCall = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor"
 			strokeLinejoin="round"
 			{...rest}
 		>
-			<path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+			<path d="M13 2a9 9 0 0 1 9 9" />
+			<path d="M13 6a5 5 0 0 1 5 5" />
+			<path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
 		</svg>
 	);
 });

@@ -1,13 +1,19 @@
 node_modules/
 src/
 test/
+scripts/
 
-.babelrc
-.eslintrc
+.github/
 .gitignore
+.gitattributes
 .prettierrc
+.DS_Store
 
+eslint.config.js
 rollup.config.js
+tsconfig.json
 
 package-lock.json
-tsconfig.json
+
+CHANGELOG.md
+CODE_OF_CONDUCT.md

@@ -4,7 +4,7 @@
 
 ## What is Next Icons?
 
-An open-source icon library for [**React**](https://react.dev/) and [**Next.js**](https://nextjs.org/) that is lightweight, designed for simplicity and seamless integration. Each icon is designed on a **24x24** pixels grid.
+An open-source icon library built for [**Next.js**](https://nextjs.org/) focused on simplicity, lightweight performance, and seamless integration. Every icon is carefully designed on a consistent **24x24 pixel grid**.
 
 <a href="https://www.nexticons.com"><strong>Browse at nexticons.com &rarr;</strong></a>
 
@@ -27,13 +27,13 @@ bun add @deemlol/next-icons
 ## Example Usage
 
 ```javascript
-import { Cookie } from "@deemlol/next-icons";
+import { Airplay } from "@deemlol/next-icons";
 
-export default function Question() {
+export default function Example() {
 	return (
-		<h1>
-			Do you want <Cookie />?
-		</h1>
+		<div>
+			<Airplay />
+		</div>
 	);
 }
 ```
@@ -43,40 +43,21 @@ You can also include the whole icon pack:
 ```javascript
 import * as Icon from "@deemlol/next-icons";
 
-export default function Question() {
-	return (
-		<h1>
-			Do you want <Icon.Cookie />?
-		</h1>
-	);
-}
-```
-
-## Animated Icons
-
-Animated icons are available from a dedicated import path:
-
-```javascript
-import { Alarm } from "@deemlol/next-icons/animated";
-
-export default function Preview() {
+export default function Example() {
 	return (
 		<div>
-			<Alarm />
+			<Icon.Airplay />
 		</div>
 	);
 }
 ```
-
-You can use the same props as regular icons (`size`, `color`, `strokeWidth`, `className`).
-Some animations are interactive and run on hover/focus.
 
 ## Configuration
 
 All our icons can be also configured with props.
 
 ```javascript
-<Cookie size={40} color="#FF0000" strokeWidth={1.5} className="flex items-center" />
+<Airplay size={40} color="#FF0000" strokeWidth={1.5} className="flex items-center" />
 ```
 
 ## Support
@@ -86,11 +67,3 @@ If you encounter any issues or have questions, feel free to reach out to our [**
 ## License
 
 This project is licensed under the MIT License. See the [**LICENSE**](https://github.com/Next-Icons/next-icons/blob/main/LICENSE) file for more information.
-
-## Contributors
-
-<a href="https://github.com/Next-Icons/next-icons/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Next-Icons/next-icons" />
-</a>
-
-Thanks to all our contributors for their help and support in improving **Next Icons**!

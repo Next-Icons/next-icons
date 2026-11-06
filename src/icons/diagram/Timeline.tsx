@@ -1,0 +1,31 @@
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
+const Timeline = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
+	return (
+		<svg
+			ref={ref}
+			xmlns="http://www.w3.org/2000/svg"
+			width={size}
+			height={size}
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke={color}
+			strokeWidth={strokeWidth}
+			strokeLinecap="round"
+			strokeLinejoin="round"
+			{...rest}
+		>
+			<path d="M4 12h.01" />
+			<path d="M4 16h.01" />
+			<path d="M4 20h.01" />
+			<path d="M4 4h.01" />
+			<path d="M4 8h.01" />
+			<path d="M9.414 13.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 12z" />
+			<path d="M9.414 21.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 20z" />
+			<path d="M9.414 5.414A2 2 0 0 0 10.828 6H19a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 4z" />
+		</svg>
+	);
+});
+
+Timeline.displayName = "Timeline";
+export default Timeline;

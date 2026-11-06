@@ -1,53 +1,40 @@
 {
 	"private": false,
-	"version": "0.2.7",
 	"type": "module",
-	"name": "@deemlol/next-icons",
-	"description": "An open-source icon library for React and Next.js that is lightweight, designed for simplicity and seamless integration. Each icon is designed on a 24x24 pixels grid.",
+	"version": "0.3.0",
 	"main": "build/index.js",
-	"module": "build/index.js",
 	"types": "build/index.d.ts",
+	"name": "@deemlol/next-icons",
+	"description": "An open-source icon library built for Next.js, focused on simplicity, lightweight performance, and seamless integration. Every icon is carefully designed on a consistent 24x24 pixel grid.",
 	"scripts": {
 		"build": "rollup -c",
-		"dev": "rollup -c -w",
-		"lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
-		"format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
-		"format:write": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+		"lint": "eslint src",
+		"generate": "npx tsx scripts/generate-index.ts",
+		"format:check": "prettier --check \"src/**/*.{ts,tsx}\"",
+		"format:write": "prettier --write \"src/**/*.{ts,tsx}\""
 	},
 	"peerDependencies": {
-		"framer-motion": "^12.0.0",
-		"react": "^19.0.0"
+		"react": ">=17"
 	},
 	"devDependencies": {
-		"@babel/plugin-transform-object-rest-spread": "^7.28.6",
-		"@babel/preset-env": "^7.29.0",
-		"@babel/preset-react": "^7.28.5",
-		"@rollup/plugin-babel": "^6.0.4",
-		"@types/react": "^19.2.14",
-		"@typescript-eslint/parser": "^7.0.0",
-		"eslint": "^8.57.1",
-		"eslint-config-airbnb": "^19.0.4",
-		"eslint-import-resolver-typescript": "^4.4.4",
-		"eslint-plugin-import": "^2.32.0",
-		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"@eslint/js": "^9.39.5",
+		"@rollup/plugin-typescript": "^12.3.1",
+		"@types/node": "^26.6.6",
+		"@types/react": "^19.3.0",
+		"eslint": "^9.39.5",
 		"eslint-plugin-react": "^7.37.5",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"framer-motion": "^12.38.0",
-		"prettier-eslint": "^16.4.2",
-		"rollup": "^4.59.0",
-		"rollup-plugin-typescript2": "^0.36.0",
-		"typescript": "^5.9.3"
+		"eslint-plugin-react-hooks": "^7.1.1",
+		"prettier": "^3.9.10",
+		"rollup": "^4.67.4",
+		"tslib": "^2.9.1",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.72.1"
 	},
 	"exports": {
 		".": {
-			"types": "./build/index.d.ts",
 			"import": "./build/index.js",
-			"default": "./build/index.js"
-		},
-		"./animated": {
-			"types": "./build/animated/index.d.ts",
-			"import": "./build/animated/index.js",
-			"default": "./build/animated/index.js"
+			"default": "./build/index.js",
+			"types": "./build/index.d.ts"
 		}
 	},
 	"keywords": [
@@ -55,23 +42,24 @@
 		"nextjs icons",
 		"svg icons",
 		"icons",
-		"next-icons"
+		"next icons"
 	],
+	"files": [
+		"build"
+	],
+	"sideEffects": false,
+	"license": "MIT",
 	"homepage": "https://www.nexticons.com",
 	"bugs": {
-		"url": "https://www.nexticons.com/contact"
+		"url": "https://github.com/Next-Icons/next-icons/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Next-Icons/next-icons.git"
 	},
 	"author": {
+		"name": "NextIcons.com",
 		"email": "contact@nexticons.com",
-		"name": "NextIcons.com - Represented by Alexandr Virgovič",
 		"url": "https://www.nexticons.com"
-	},
-	"files": [
-		"build"
-	],
-	"license": "MIT"
+	}
 }

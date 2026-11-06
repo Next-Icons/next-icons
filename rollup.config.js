@@ -1,35 +1,19 @@
-import typescript from "rollup-plugin-typescript2";
-import babel from "@rollup/plugin-babel";
-import ts from "typescript";
+import typescript from "@rollup/plugin-typescript";
 
-const createConfig = (input, outputFile, declarationDir, rootDir, include) => ({
-	input,
+export default {
+	input: "src/index.ts",
 	output: {
-		file: outputFile,
-		format: "esm"
+		format: "esm",
+		dir: "build",
+		preserveModules: true,
+		preserveModulesRoot: "src"
 	},
-	external: ["react", "prop-types", "framer-motion"],
+	external: ["react", "react/jsx-runtime"],
 	plugins: [
 		typescript({
-			typescript: ts,
-			tsconfig: "tsconfig.json",
-			tsconfigOverride: {
-				include: [include],
-				compilerOptions: {
-					declarationDir,
-					rootDir
-				}
-			}
-		}),
-		babel({
-			babelHelpers: "bundled",
-			extensions: [".js", ".jsx", ".ts", ".tsx"],
-			exclude: "node_modules/**"
+			rootDir: "src",
+			declarationDir: "build",
+			tsconfig: "tsconfig.json"
 		})
 	]
-});
-
-export default [
-	createConfig("src/index.ts", "build/index.js", "build", "src", "src/index.ts"),
-	createConfig("src/animated/index.ts", "build/animated/index.js", "build/animated", "src/animated", "src/animated/index.ts")
-];
+};

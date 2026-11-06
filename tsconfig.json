@@ -1,14 +1,13 @@
 {
 	"compilerOptions": {
-		"target": "es5",
+		"jsx": "react-jsx",
+		"target": "es2020",
 		"module": "esnext",
 		"lib": ["dom", "esnext"],
-		"jsx": "react",
-		"declaration": true,
-		"declarationDir": "build",
+		"moduleResolution": "bundler",
+
 		"strict": true,
-		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true,
+		"declaration": true,
 		"esModuleInterop": true
 	},
 	"include": ["src"],

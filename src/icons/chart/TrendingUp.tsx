@@ -1,11 +1,5 @@
-import React, { forwardRef, SVGAttributes } from "react";
-
-interface IconProps extends SVGAttributes<SVGElement> {
-	color?: string;
-	size?: string | number;
-	strokeWidth?: string | number;
-}
-
+import { forwardRef } from "react";
+import type { IconProps } from "../../types";
 const TrendingUp = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor", size = 24, strokeWidth = 1.5, ...rest }, ref) => {
 	return (
 		<svg
@@ -21,8 +15,8 @@ const TrendingUp = forwardRef<SVGSVGElement, IconProps>(({ color = "currentColor
 			strokeLinejoin="round"
 			{...rest}
 		>
-			<polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
-			<polyline points="17 6 23 6 23 12" />
+			<path d="M16 7h6v6" />
+			<path d="m22 7-8.5 8.5-5-5L2 17" />
 		</svg>
 	);
 });
